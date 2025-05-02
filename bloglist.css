@@ -1,0 +1,219 @@
+/**------------------------------------------------------Header--------------------------------------------**/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    width: 90%;
+}
+#thelogo{
+    width: 110px;
+    height: 30px;
+}
+nav{
+    width: 505px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    width: 133.9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/**------------------------------bloglistheader---------------------------------------------**/
+#bloglistheader{
+    width: 90%;
+    padding: 5%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+#bloglistheader h1{
+    font-weight: 600;
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+#bloglistheader p{
+    font-size: 16px;
+    font-weight:400 ;
+    margin-bottom: 30px;
+}
+
+.searchbar input{
+    width: 500px;
+    padding-left: 2%;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.searchbar button{
+    width: 150px;
+    background-color: black;
+    color: white;
+    padding: 1.5%;
+    border: none;
+    border-radius: 20px;
+}
+
+/**----------------------------------------Articles-----------------------------------------**/
+#articles{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.article1{
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.articleimage img{
+    width: 270px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.articlecontent{
+    width: 320px;
+}
+
+.articlecontent h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.articlecontent h2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.articlecontent p{
+    font-size: 16px;
+}
+.johnsmith{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.johnsmith img{
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;
+}
+
+.article2{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.article2image img{
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.article2content{
+    width: 200px;
+}
+
+.article2content h2{
+    font-size: 20px;
+}
+
+.article2content p{
+    font-size: 14px;
+}
+
+
+/**-------------------------------Subscribe section--------------------------**/
+#subscsribesection{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    padding-top: 0%;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.subscribe{
+    background: url(/Images/subscribebg.png);
+    height: 400px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.subscribe h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subscribe p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.subscribe form input{
+    background-color: white;
+    border: none;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+.subscribe button{
+    background-color: black;
+    color: white;
+    padding: 1.2%;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/**----------------------------Footer section-----------------------------**/
+footer{
+    width: 90%;
+    padding: 5%;
+}
+.footercombination{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    text-align: center;
+}

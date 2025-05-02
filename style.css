@@ -1,0 +1,998 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+
+/**------------------------------------------------------Header--------------------------------------------**/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    width: 90%;
+
+}
+#thelogo{
+    width: 110px;
+    height: 30px;
+}
+nav{
+    width: 505px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    width: 133.9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/**----------------------------------------------Hero Section----------------------------------**/
+#Herosection{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    padding-top: 2%;
+    font-family: "Inter", sans-serif;
+}
+
+#Herosection hr{
+    margin-left: -60px;
+    margin-right:-60px ;
+    margin-bottom: 5%;
+}
+
+.theherosection{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -60px;
+}
+
+.leftdiv{
+    width: 20px;
+    height: 550px;
+    background-color: #E7F9FD;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.recipecontent{
+    background-color: #E7F9FD;
+    width: 550px;
+    padding: 5%;
+    height: 440px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.hotrecipes{
+    display: flex;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.hotrecipes img{
+    margin-right: 20px;
+}
+.recipecontent h1{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.recipecontent p {
+    font-size: 16px;
+    line-height: 28px;
+    width: 520px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.food-time{
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 20px;
+
+}
+
+.food-time img{
+    margin-right: 10px;
+}
+
+.food-time p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.timer{
+    display: flex;
+    
+}
+
+.johnsmith{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.johnsmith img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.johnsmith p{
+    font-size: 14px;
+    color: (0, 0, 0, 0.6);
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+}
+
+.viewrecipe{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.viewrecipe img{
+    margin-left: 20px;
+}
+
+.johnsmith p span{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+}
+
+.aftertimer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.recipeimg{
+    background: url(/Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
+    background-size: cover;
+    width: 600px;
+    border-radius: 0px 20px 20px 0px;
+    height: 555px;
+}
+
+.recipeimg img{
+    width: 150px;
+    height: 150px;
+    margin-left: -60px;
+    margin-top: 50px;
+}
+
+.recipediv{
+    display: flex;
+}
+
+.rightdiv{
+    width: 20px;
+    height: 550px;
+    background-color: #E7F9FD;
+    border-radius: 20px 0px 0px 20px;
+    margin-right: -60px;
+}
+
+
+/**--------------------------------Categories Section-------------------------------------**/
+#categories{
+    padding: 5%;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+}
+.thecategory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thecategory h1{
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.viewcategories{
+    background-color: #E7F9FD;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    border: none;
+}
+.breakfast{
+    background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    text-align: center;
+}
+.breakfast p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.breakfast img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.vegan {
+    background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    text-align: center;
+}
+.vegan img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.vegan p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.meat {
+    background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+.meat p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.meat img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.dessert{
+    background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+.dessert img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.dessert p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;   
+}
+
+.lunch{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+.lunch img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.lunch p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.chocolate{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+.chocolate img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.chocolate p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.thecategoriesgroup{
+    display: flex;
+    justify-content: space-between;
+}
+
+/**--------------------------Simple and tasty section-------------------------------**/
+#simpleandtasty{
+    padding: 5%;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+}
+
+.simplerecipe{
+    text-align: center;
+}
+
+.simplerecipe h1{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.simplerecipe p{
+    text-align: center;
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.thefirstrecipies{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.therecipes{
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    width: 300px;
+    height: 400px;
+    padding: 2%;
+    border-radius: 30px;
+
+}
+.recipesimages{
+    background:url(/Images/Bigandjuicy.png);
+    height: 200px;
+    width: 270px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+
+.recipesimages img{
+    float: right;
+}
+.therecipes h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bigjuicy{
+    border-radius: 30px;
+    width: 380px;
+}
+.food-time1{
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 20px;
+
+}
+
+.food-time1 img{
+    margin-right: 10px;
+}
+
+.food-time1 p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.timers{
+    display: flex;
+}
+
+/**-----------Freshlime ---------------**/
+.freshlime{
+    background:url(/Images/freshlime.png);
+    height: 200px;
+    width: 270px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+
+.freshlime img{
+    float: right;
+}
+
+/**------------Oatmeal Pancake-------------------**/
+.oatmealpancake{
+    background:url(/Images/image26.png);
+    height: 200px;
+    width: 270px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+
+.oatmealpancake img{
+    float: right;
+}
+
+/**------------------------MIxedsalad-------------------------**/
+.mixedsalad{
+    background:url(/Images/mixedsalad.png);
+    height: 200px;
+    width: 270px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+
+.mixedsalad img{
+    float: right;
+}
+
+/**-------------------Cream cheese-------------------------------------**/
+.creamcheese{
+    background:url(/Images/chickenmeatball.png);
+    height: 200px;
+    width: 270px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+
+.creamcheese img{
+    float: right;
+}
+
+/**----------------------Ads image----------------------------------**/
+.adsimage{
+    background: url(/Images/Ads.png);
+    width: 350px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+/**-------------------------------------Fruity Pancakde-------------------------***/
+.fruitypancake{
+    background:url(/Images/fruitypancake.png);
+    height: 200px;
+    width: 270px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+
+.fruitypancake img{
+    float: right;
+}
+
+/**----------------------Easyone  pot chicket----------------------**/
+.easyonepot{
+    background:url(/Images/potchicken.png);
+    height: 200px;
+    width: 270px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+
+.easyonepot img {
+    float: right;
+}
+
+/**-------------------------------Bacon pasta----------------------------**/
+.baconpasta{
+    background:url(/Images/baconpasta.png);
+    height: 200px;
+    width: 270px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+
+.baconpasta img{
+    float:right;
+}
+
+
+
+/**-------------------------------------Everyone can be a chef section---------------------------**/
+#everyonecanbeachef{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    padding: 5%;
+    width: 90%;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+}
+
+.chefcontent{
+    width: 526px;
+    height: 356px;
+}
+
+.chefcontent h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.chefcontent p{
+    font-size: 16px;
+    width: 450px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 50px;
+
+}
+
+.learnmore{
+    width:150px;
+    padding: 3%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.chefimage{
+    background: url(/Images/chefimage.png);
+    width: 700px;
+    height: 597px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/**--------------------------Check out on instagram section-------------------------------**/
+#foodielandoninstagram{
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    height: 800px;
+    padding: 5%;
+    width: 90%;     
+    font-family: "Inter", sans-serif;
+}
+
+.checkout{
+    text-align: center;
+}
+
+.checkout h1{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.checkout p{
+    font-size: 16px;
+    line-height: 28px;
+}
+.post{
+    width: 260px;
+    height: 450px;
+    background-color: white;
+}
+.thegroupedpost{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+.posttop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 2%
+}
+.instagramhead{
+    display: flex;
+    align-items: center;
+}
+.instagramlogo img{
+    width: 24.75px;
+    height: 24.75px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.instagramlogocontent{
+    line-height: 5px;
+}
+.instagramlogocontent h3{
+    font-size: 10.05px;
+    font-weight: 600;
+}
+
+.instagramlogocontent h3 img{
+    width: 7.65px;
+    width: 7.58px;
+}
+
+.instagramlogocontent p{
+    font-size: 8.51px;
+    font-weight: 400;
+}
+
+.morebutton img{
+    width: 10.83px;
+}
+
+.postimage{
+    height: 250px;
+    background: url(/Images/Rectangle.png);
+    background-size: contain;
+    padding: 2%;
+    background-repeat: no-repeat;
+}
+
+.postimage button{
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 30px;
+    height: 20px;
+}
+.thepostcontents{
+    padding: 5%;
+}
+
+.thepostcontents p {
+    font-size: 10.05px;
+}
+
+.thepostcontents p img{
+    width: 13.15px;
+    margin-right: 5px;
+}
+.postreaction{
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagramreactions{
+    display: flex;
+    justify-content: space-between;
+}
+.visitinstadiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.visitinsta{
+    width: 230px;
+    height: 60px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.visitinsta img{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+.postimage1{
+    height: 250px;
+    background: url(/Images/Rectangle2.png);
+    background-size: contain;
+    padding: 2%;
+    background-repeat: no-repeat;
+}
+
+.postimage1 button{
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 30px;
+    height: 20px;
+}
+
+.postimage2{
+    height: 250px;
+    background: url(/Images/Rectangle3.png);
+    background-size: contain;
+    padding: 2%;
+    background-repeat: no-repeat;
+}
+
+.postimage2 button{
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 30px;
+    height: 20px;
+}
+
+.postimage3{
+    height: 250px;
+    background: url(/Images/Rectangle4.png);
+    background-size: contain;
+    padding: 2%;
+    background-repeat: no-repeat;
+}
+
+.postimage3 button{
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 30px;
+    height: 20px;
+}
+
+
+/**----------------------------Delicious recipeeeeeeeeeeeee section---------------------**/
+#thedeliciousrecipe{
+    padding: 5%;
+     width: 90%;
+     font-family: "Inter", sans-serif;
+ }
+ 
+ #thedeliciousrecipe h1{
+     font-size: 36px;
+     font-weight: 600;
+     text-align: center;
+ }
+ .thedeliciousrecipe1{
+     width: 250px;
+     padding: 0%;
+     height: 300px;
+ }
+ 
+ .tropicalfruit{
+     background: url(/Images/tropical.png);
+     width: 230px;
+     padding: 5%;
+     height: 150px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 20px;
+     
+ }
+ 
+ .tropicalfruit img{
+     float: right;
+ }
+ 
+ /**-------------wagyu beef-----------**/
+ .wagyubeef{
+         background: url(/Images/Wagyu\ beef.png);
+         width: 230px;
+         padding: 5%;
+         height: 150px;
+         background-size: cover;
+         background-repeat: no-repeat;
+         border-radius: 20px;
+ }    
+    
+ .wagyubeef img{
+         float: right;
+   }
+ 
+ /**-------------------japanese rice-----------**/
+ .japaneserice{
+         background: url(/Images/japaneeserice.png);
+         width: 230px;
+         padding: 5%;
+         height: 150px;
+         background-size: cover;
+         background-repeat: no-repeat;
+         border-radius: 20px;
+ }
+ 
+ .japaneserice img{
+     float: right;
+ }
+ 
+ /**---------------------cauli flower---------------**/
+ .cauliflower{
+     background: url(/Images/Cauliflower.png);
+     width: 230px;
+     padding: 5%;
+     height: 150px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 20px;
+ }
+ 
+ .cauliflower img{
+     float: right;
+ }
+ 
+ 
+ .thedeliciousrecipe1 h2{
+     font-size: 18px;
+     line-height: 26px;
+ }
+ 
+ .food-time1{
+     width: 150px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     padding-left: 0%;
+     padding-right: 2%;
+     padding-top: 0%;
+     padding-bottom: 1%;
+     margin-right: 20px;
+ 
+ }
+ 
+ .food-time1 img{
+     margin-right: 0px;
+ }
+ 
+ .food-time1 p{
+     font-size: 14px;
+     font-weight: 500;
+     color: rgba(0, 0, 0, 0.6);
+ }
+ 
+ .timers{
+     display: flex;
+     width: 250px;
+     justify-content: space-between;
+ }
+ 
+ .groupedrecipes{
+     display: flex;
+     justify-content: space-between;
+ }
+
+
+ /**-------------------------------Subscribe section--------------------------**/
+#subscsribesection{
+    padding: 5%;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.subscribe{
+    background: url(/Images/subscribebg.png);
+    height: 400px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.subscribe h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subscribe p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.subscribe form input{
+    background-color: white;
+    border: none;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+.subscribe button{
+    background-color: black;
+    color: white;
+    padding: 1.2%;
+    border: none;
+    border-radius: 10px;
+}
+
+/**----------------------------Footer section-----------------------------**/
+footer{
+    width: 90%;
+    padding: 5%;
+    font-family: "Inter", sans-serif;
+}
+.footercombination{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    text-align: center;
+}
