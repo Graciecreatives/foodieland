@@ -996,3 +996,602 @@ footer{
 footer p{
     text-align: center;
 }
+
+
+
+/***---------------------Mobile form----------------------------------**/
+@media (min-width:300px) and (max-width:450px){
+
+header{
+    display: none;
+}
+
+/**----------------------------------------------Hero Section----------------------------------**/
+#Herosection{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    padding-top: 2%;
+    font-family: "Inter", sans-serif;
+}
+
+#Herosection hr{
+    margin-left: -60px;
+    margin-right:-60px;
+    margin-bottom: 5%;
+}
+
+.theherosection{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15px;
+    
+}
+
+.leftdiv{
+    display: none;
+}
+
+.recipecontent{
+    background-color: #E7F9FD;
+    width:100%;
+    padding: 5%;
+    height: 440px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.hotrecipes{
+    display: flex;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 50px;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+    font-size: 14px;
+    font-weight: 500;
+}
+.hotrecipes img{
+    margin-right: 20px;
+}
+.recipecontent h1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 5%;
+    width: 90%;
+}
+
+.recipecontent p {
+    font-size: 16px;
+    line-height: 28px;
+     font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding-left: 5%;
+    width: 90%;
+}
+
+.food-time{
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 20px;
+
+}
+
+.food-time img{
+    margin-right: 10px;
+}
+
+.food-time p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.timer{
+    display: flex;
+    
+}
+
+.johnsmith{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.johnsmith img{
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;
+}
+.johnsmith p{
+    font-size: 14px;
+    color: (0, 0, 0, 0.6);
+    line-height: 25px;
+    font-family: "Inter", sans-serif;
+}
+
+.viewrecipe{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 150px;
+    font-size: 13px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.viewrecipe img{
+    margin-left: 20px;
+}
+
+.johnsmith p span{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+}
+
+.aftertimer{
+    margin-top: 10px;
+ 
+}
+.recipeimg{
+    background: url(/Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
+    background-size: cover;
+    width: 110%;
+    border-radius: 0px 20px 20px 0px;
+    height: 400px;
+}
+
+.recipeimg img{
+    width: 150px;
+    height: 150px;
+    margin-left: 90px;
+    margin-top: -30px;
+}
+
+.recipediv{
+    display: block;
+    width: 95%;
+}
+
+.rightdiv{
+    display: none;
+}
+
+/**--------------------------------Categories Section-------------------------------------**/
+#categories{
+    padding: 5%;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+}
+.thecategory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.thecategory h1{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.viewcategories{
+    background-color: #E7F9FD;
+    width: 150px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    border: none;
+}
+.breakfast{
+    background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+    width: 90px;
+    height: 160px;
+    border-radius: 20px;
+    text-align: center;
+}
+.breakfast p{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.breakfast img{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.vegan {
+    background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+    width: 100px;
+    height: 160px;
+    border-radius: 20px;
+    text-align: center;
+}
+.vegan img{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.vegan p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.meat {
+    background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+    width: 100px;
+    height: 160px;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+.meat p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.meat img{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.dessert{
+    background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+    width: 100px;
+    height: 160px;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+.dessert img{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.dessert p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;   
+}
+
+.lunch{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    width: 100px;
+    height: 160px;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+.lunch img{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.lunch p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.chocolate{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    width: 100px;
+    height: 160px;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+.chocolate img{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.chocolate p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.thecategoriesgroup{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: none;
+    gap:20px
+}
+
+
+/**--------------------------Simple and tasty section-------------------------------**/
+#simpleandtasty{
+    padding: 5%;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+}
+
+.simplerecipe{
+    text-align: center;
+}
+
+.simplerecipe h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.simplerecipe p{
+    text-align: center;
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.thefirstrecipies{
+    margin-left: 3%;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.therecipes{
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    width: 300px;
+    height: 380px;
+    padding: 2%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+.recipesimages{
+    background:url(/Images/Bigandjuicy.png);
+    height: 200px;
+    width: 270px;
+    border-radius: 30px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding:5%;
+}
+
+.recipesimages img{
+    float: right;
+}
+.therecipes h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bigjuicy{
+    border-radius: 30px;
+    width: 380px;
+}
+.food-time1{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 0px;
+
+}
+
+.food-time1 img{
+    margin-right: 10px;
+}
+
+.food-time1 p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.timers{
+    display: flex;
+}
+
+
+/**----------------------Ads image----------------------------------**/
+.adsimage{
+    background: url(/Images/Ads.png);
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+/**-------------------------------------Everyone can be a chef section---------------------------**/
+#everyonecanbeachef{
+    display: block;
+   }
+
+.chefcontent{
+    width: 100%;
+    height: 300px;
+}
+
+.chefcontent h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.chefcontent p{
+    font-size: 15px;
+    text-align: justify;
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+.chefimage{
+    background: url(/Images/chefimage.png);
+    width: 100%;
+    height: 250px;
+ }
+
+ /**--------------------------Check out on instagram section-------------------------------**/
+#foodielandoninstagram{
+    height: 2300px;
+    padding: 5%;
+    width: 90%;     
+    font-family: "Inter", sans-serif;
+}
+
+.checkout h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.checkout p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.post{
+    width: 90%;
+    height: 450px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.thegroupedpost{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    padding-bottom: 5%;
+    margin-left: 10%;
+}
+
+/**----------------------------Delicious recipeeeeeeeeeeeee section---------------------**/
+#thedeliciousrecipe{
+    padding: 5%;
+     width: 90%;
+     font-family: "Inter", sans-serif;
+ }
+ 
+ #thedeliciousrecipe h1{
+     font-size: 30px;
+     font-weight: 600;
+     text-align: center;
+ }
+
+ .groupedrecipes{
+     display: block;
+     margin-left: 10%;
+     justify-content: space-between;
+ }
+
+ .thedeliciousrecipe1{
+    margin-bottom: 30px;
+ }
+
+ /**-------------------------------Subscribe section--------------------------**/
+#subscsribesection{
+    padding: 5%;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.subscribe{
+    background: url(/Images/subscribebg.png);
+    height: 100px;
+    width: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 0px;
+}
+
+.subscribe h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subscribe p{
+    font-size: 14px;
+    line-height: 28px;
+    display: none;
+}
+
+.subscribe form input{
+    background-color: white;
+    border: none;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+.subscribe button{
+    background-color: black;
+    color: white;
+    padding: 1.2%;
+    border: none;
+    border-radius: 10px;
+}
+
+/**----------------------------Footer section-----------------------------**/
+footer{
+    width: 90%;
+    padding: 5%;
+    font-family: "Inter", sans-serif;
+}
+.footercombination{
+    display: block;
+    justify-content: space-between;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footerlogo p{
+   
+    text-align: left;
+}
+.footernav nav {
+    width: 350px;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+
+.footernav nav ul li a {
+    font-size: 14px;
+}
+
+}
