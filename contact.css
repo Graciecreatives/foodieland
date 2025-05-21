@@ -278,3 +278,210 @@ nav ul{
     display: flex;
     justify-content: space-between;
 }
+
+/**----------------------------Footer section-----------------------------**/
+footer{
+    width: 90%;
+    padding: 5%;
+    font-family: "Inter", sans-serif;
+}
+.footercombination{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media (min-width:300px) and (max-width:450px) {
+    header{
+        display: none;
+    }
+
+/**--------------------Contact Form section----------------------------------**/
+#contact{
+    padding: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding-bottom: 20%;
+}
+.contactform{
+    width: 100%;
+}
+
+.contactimage{
+    width: 350px;
+}
+.contactimage img{
+    width: 350px;
+    height: 472px;
+}
+
+.formname input{
+    padding-left: 5%;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.formemail input{
+    padding-left: 5%;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+.formenquiry select{
+    padding-left:5%;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.formenquiry select option{
+    padding-right: 200;
+}
+.formdiv1{
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.formmessage input{
+    width: 95%;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.contactform button{
+    width: 100px;
+    height: 50px;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/**----------------------------Delicious recipeeeeeeeeeeeee section---------------------**/
+#thedeliciousrecipe{
+    padding: 5%;
+     width: 90%;
+     font-family: "Inter", sans-serif;
+ }
+ 
+ #thedeliciousrecipe h1{
+     font-size: 30px;
+     font-weight: 600;
+     text-align: center;
+ }
+
+ .groupedrecipes{
+     display: block;
+     margin-left: 10%;
+     justify-content: space-between;
+ }
+
+ .thedeliciousrecipe1{
+    margin-bottom: 30px;
+ }
+
+ /**-------------------------------Subscribe section--------------------------**/
+#subscsribesection{
+    padding: 5%;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.subscribe{
+    background: url(Images/subscribebg.png);
+    height: 100px;
+    width: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 0px;
+}
+
+.subscribe h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subscribe p{
+    font-size: 14px;
+    line-height: 28px;
+    display: none;
+}
+
+.subscribe form input{
+    background-color: white;
+    border: none;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+.subscribe button{
+    background-color: black;
+    color: white;
+    padding: 1.2%;
+    border: none;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+/**----------------------------Footer section-----------------------------**/
+footer{
+    width: 90%;
+    padding: 5%;
+    font-family: "Inter", sans-serif;
+}
+.footercombination{
+    display: block;
+    justify-content: space-between;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footerlogo p{
+   
+    text-align: left;
+}
+.footernav nav {
+    width: 350px;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+
+.footernav nav ul li a {
+    font-size: 14px;
+}
+
+}

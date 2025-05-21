@@ -195,7 +195,7 @@ nav ul{
 
 }
 .recipeimg{
-    background: url(/Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
+    background: url(Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
     background-size: cover;
     width: 600px;
     border-radius: 0px 20px 20px 0px;
@@ -411,7 +411,7 @@ nav ul{
 
 }
 .recipesimages{
-    background:url(/Images/Bigandjuicy.png);
+    background:url(Images/Bigandjuicy.png);
     height: 200px;
     width: 270px;
     border-radius: 30px;
@@ -462,7 +462,7 @@ nav ul{
 
 /**-----------Freshlime ---------------**/
 .freshlime{
-    background:url(/Images/freshlime.png);
+    background:url(Images/freshlime.png);
     height: 200px;
     width: 270px;
     border-radius: 30px;
@@ -477,7 +477,7 @@ nav ul{
 
 /**------------Oatmeal Pancake-------------------**/
 .oatmealpancake{
-    background:url(/Images/image26.png);
+    background:url(Images/image26.png);
     height: 200px;
     width: 270px;
     border-radius: 30px;
@@ -492,7 +492,7 @@ nav ul{
 
 /**------------------------MIxedsalad-------------------------**/
 .mixedsalad{
-    background:url(/Images/mixedsalad.png);
+    background:url(Images/mixedsalad.png);
     height: 200px;
     width: 270px;
     border-radius: 30px;
@@ -507,7 +507,7 @@ nav ul{
 
 /**-------------------Cream cheese-------------------------------------**/
 .creamcheese{
-    background:url(/Images/chickenmeatball.png);
+    background:url(Images/chickenmeatball.png);
     height: 200px;
     width: 270px;
     border-radius: 30px;
@@ -522,7 +522,7 @@ nav ul{
 
 /**----------------------Ads image----------------------------------**/
 .adsimage{
-    background: url(/Images/Ads.png);
+    background: url(Images/Ads.png);
     width: 350px;
     height: 400px;
     background-position: center;
@@ -532,7 +532,7 @@ nav ul{
 
 /**-------------------------------------Fruity Pancakde-------------------------***/
 .fruitypancake{
-    background:url(/Images/fruitypancake.png);
+    background:url(Images/fruitypancake.png);
     height: 200px;
     width: 270px;
     border-radius: 30px;
@@ -547,7 +547,7 @@ nav ul{
 
 /**----------------------Easyone  pot chicket----------------------**/
 .easyonepot{
-    background:url(/Images/potchicken.png);
+    background:url(Images/potchicken.png);
     height: 200px;
     width: 270px;
     border-radius: 30px;
@@ -562,7 +562,7 @@ nav ul{
 
 /**-------------------------------Bacon pasta----------------------------**/
 .baconpasta{
-    background:url(/Images/baconpasta.png);
+    background:url(Images/baconpasta.png);
     height: 200px;
     width: 270px;
     border-radius: 30px;
@@ -620,7 +620,7 @@ nav ul{
 }
 
 .chefimage{
-    background: url(/Images/chefimage.png);
+    background: url(Images/chefimage.png);
     width: 700px;
     height: 597px;
     background-position: center;
@@ -701,7 +701,7 @@ nav ul{
 
 .postimage{
     height: 250px;
-    background: url(/Images/Rectangle.png);
+    background: url(Images/Rectangle.png);
     background-size: contain;
     padding: 2%;
     background-repeat: no-repeat;
@@ -767,7 +767,7 @@ nav ul{
 
 .postimage1{
     height: 250px;
-    background: url(/Images/Rectangle2.png);
+    background: url(Images/Rectangle2.png);
     background-size: contain;
     padding: 2%;
     background-repeat: no-repeat;
@@ -785,7 +785,7 @@ nav ul{
 
 .postimage2{
     height: 250px;
-    background: url(/Images/Rectangle3.png);
+    background: url(Images/Rectangle3.png);
     background-size: contain;
     padding: 2%;
     background-repeat: no-repeat;
@@ -803,7 +803,7 @@ nav ul{
 
 .postimage3{
     height: 250px;
-    background: url(/Images/Rectangle4.png);
+    background: url(Images/Rectangle4.png);
     background-size: contain;
     padding: 2%;
     background-repeat: no-repeat;
@@ -839,7 +839,7 @@ nav ul{
  }
  
  .tropicalfruit{
-     background: url(/Images/tropical.png);
+     background: url(Images/tropical.png);
      width: 230px;
      padding: 5%;
      height: 150px;
@@ -855,7 +855,7 @@ nav ul{
  
  /**-------------wagyu beef-----------**/
  .wagyubeef{
-         background: url(/Images/Wagyu\ beef.png);
+         background: url(Images/Wagyu\ beef.png);
          width: 230px;
          padding: 5%;
          height: 150px;
@@ -870,7 +870,7 @@ nav ul{
  
  /**-------------------japanese rice-----------**/
  .japaneserice{
-         background: url(/Images/japaneeserice.png);
+         background: url(Images/japaneeserice.png);
          width: 230px;
          padding: 5%;
          height: 150px;
@@ -885,7 +885,7 @@ nav ul{
  
  /**---------------------cauli flower---------------**/
  .cauliflower{
-     background: url(/Images/Cauliflower.png);
+     background: url(Images/Cauliflower.png);
      width: 230px;
      padding: 5%;
      height: 150px;
@@ -948,7 +948,7 @@ nav ul{
 }
 
 .subscribe{
-    background: url(/Images/subscribebg.png);
+    background: url(Images/subscribebg.png);
     height: 400px;
     width: 100%;
     background-size: contain;
@@ -1155,7 +1155,7 @@ header{
  
 }
 .recipeimg{
-    background: url(/Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
+    background: url(Images/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
     background-size: cover;
     width: 110%;
     border-radius: 0px 20px 20px 0px;
@@ -1372,7 +1372,7 @@ header{
 
 }
 .recipesimages{
-    background:url(/Images/Bigandjuicy.png);
+    background:url(Images/Bigandjuicy.png);
     height: 200px;
     width: 270px;
     border-radius: 30px;
@@ -1424,7 +1424,7 @@ header{
 
 /**----------------------Ads image----------------------------------**/
 .adsimage{
-    background: url(/Images/Ads.png);
+    background: url(Images/Ads.png);
     width: 300px;
     height: 400px;
     background-position: center;
@@ -1457,7 +1457,7 @@ header{
 }
 
 .chefimage{
-    background: url(/Images/chefimage.png);
+    background: url(Images/chefimage.png);
     width: 100%;
     height: 250px;
  }
@@ -1529,7 +1529,7 @@ header{
 }
 
 .subscribe{
-    background: url(/Images/subscribebg.png);
+    background: url(Images/subscribebg.png);
     height: 100px;
     width: 350px;
     background-size: contain;
@@ -1558,11 +1558,15 @@ header{
     border-radius: 10px;
 }
 .subscribe button{
-    background-color: black;
+ background-color: black;
     color: white;
     padding: 1.2%;
     border: none;
+    width: 70px;
+    height: 25px;
     border-radius: 10px;
+    font-size: 10px;
+
 }
 
 /**----------------------------Footer section-----------------------------**/
