@@ -45,6 +45,15 @@ nav ul{
     justify-content: space-between;
 }
 
+
+#closebar {
+    display: none;
+}
+
+.menu-icon{
+    display: none;
+}
+
 /**----------------------------------------------Hero Section----------------------------------**/
 #Herosection{
     padding-left: 5%;
@@ -1001,9 +1010,79 @@ footer p{
 
 /***---------------------Mobile form----------------------------------**/
 @media (min-width:300px) and (max-width:450px){
-
+/**------------------------------------------------------Header--------------------------------------------**/
 header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    width: 90%;
+    align-items: center;
+}
+#thelogo{
+    width: 110px;
+    height: 20px;
+}
+nav{
+    width: 150px;
+   
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 60px;
+}
+nav ul{
+    display:block;
+    justify-content: space-between;
+      height: 100%;
+    background-color: black;
+    position: fixed;
+    right: 0px;
+    margin-right: -260px;
+    top: -20px;
+    padding: 50px;
+    width: 120px;
+    transition-duration: 1s;
+    
+}
+
+.social{
     display: none;
+   width: 5%;
+}
+
+#closebar {
+    display: flex;
+}
+#closebar span{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #6b0de7;
+}
+
+.menu-icon img{
+   
+  width: 20px;
+}
+.menu-icon{
+    display: flex;
+    padding: 10px;    
+    background-color: black;
+   margin-left: 50%;
+    
 }
 
 /**----------------------------------------------Hero Section----------------------------------**/
@@ -1457,9 +1536,9 @@ header{
 }
 
 .chefimage{
-    background: url(Images/chefimage.png);
     width: 100%;
     height: 250px;
+    
  }
 
  /**--------------------------Check out on instagram section-------------------------------**/
@@ -1515,6 +1594,9 @@ header{
  .thedeliciousrecipe1{
     margin-bottom: 30px;
  }
+
+
+ 
 
  /**-------------------------------Subscribe section--------------------------**/
 #subscsribesection{

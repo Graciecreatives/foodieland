@@ -37,6 +37,56 @@ nav ul{
 }
 
 /**-------------------------------recipe section-------------------------------------**/
+#recipe{
+   width: 100%;
+}
+
+.recipecolumngroup{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.recipegrouped{
+    width: 60%;
+    padding-left: 5%;
+}
+
+#blogchefimg{
+    width: 100%;
+}
+
+#imageads{
+    width: 80%;
+}
+
+
+.article2{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.article2image img{
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.article2content{
+    width: 200px;
+}
+
+.article2content h2{
+    font-size: 20px;
+}
+
+.article2content p{
+    font-size: 14px;
+}
 
 
 

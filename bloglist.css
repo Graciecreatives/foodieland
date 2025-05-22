@@ -217,3 +217,262 @@ footer{
 footer p{
     text-align: center;
 }
+
+
+@media (min-width:300px) and (max-width:450px) {
+   /**------------------------------------------------------Header--------------------------------------------**/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    width: 90%;
+    align-items: center;
+}
+#thelogo{
+    width: 110px;
+    height: 20px;
+}
+nav{
+    width: 150px;
+   
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    line-height: 60px;
+}
+nav ul{
+    display:block;
+    justify-content: space-between;
+      height: 100%;
+    background-color: black;
+    position: fixed;
+    right: 0px;
+    margin-right: -260px;
+    top: -20px;
+    padding: 50px;
+    width: 120px;
+    transition-duration: 1s;
+    
+}
+
+.social{
+    display: none;
+   width: 5%;
+}
+
+#closebar {
+    display: flex;
+}
+#closebar span{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #6b0de7;
+}
+
+.menu-icon img{
+   
+  width: 20px;
+}
+.menu-icon{
+    display: flex;
+    padding: 10px;    
+    background-color: black;
+   margin-left: 50%;
+    
+}
+    /**------------------------------bloglistheader---------------------------------------------**/
+#bloglistheader h1{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#bloglistheader p{
+    font-size: 14px;
+}
+
+.searchbar input{
+    width: 70%;
+     height: 40px;
+ 
+}
+
+.searchbar button{
+    width: 25%;
+    height: 40px;
+  
+}
+
+/**----------------------------------------Articles-----------------------------------------**/
+#articles{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    padding-bottom: 5%;
+    display: block;
+    justify-content: space-between;
+
+}
+
+.article1{
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.articleimage img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.articlecontent{
+    width: 320px;
+}
+
+.articlecontent h2{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.articlecontent h2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+.article2{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.article2image img{
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.article2content{
+    width: 200px;
+}
+
+.article2content h2{
+    font-size: 20px;
+}
+
+.article2content p{
+    font-size: 14px;
+}
+
+#imageads{
+    width: 95%;
+}
+
+
+
+
+/**-------------------------------Subscribe section--------------------------**/
+#subscsribesection{
+    padding: 5%;
+    width: 90%;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.subscribe{
+    background: url(Images/subscribebg.png);
+    height: 100px;
+    width: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 0px;
+}
+
+.subscribe h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subscribe p{
+    font-size: 14px;
+    line-height: 28px;
+    display: none;
+}
+
+.subscribe form input{
+    background-color: white;
+    border: none;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+.subscribe button{
+ background-color: black;
+    color: white;
+    padding: 1.2%;
+    border: none;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 10px;
+
+}
+
+/**----------------------------Footer section-----------------------------**/
+footer{
+    width: 90%;
+    padding: 5%;
+    font-family: "Inter", sans-serif;
+}
+.footercombination{
+    display: block;
+    justify-content: space-between;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footerlogo p{
+   
+    text-align: left;
+}
+.footernav nav {
+    width: 350px;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+
+.footernav nav ul li a {
+    font-size: 14px;
+}
+
+}

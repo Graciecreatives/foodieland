@@ -8,15 +8,19 @@
 </head>
 <body>
     <main>
-        <header>
-            <img src="/Images/Foodieland..png" alt="Foodieland's Logo" id="thelogo">
-
+         <header>
+            <img src="Images/Foodieland..png" alt="Foodieland's Logo" id="thelogo">
+             
+            <div class="menu-icon">
+                <img src="Images/icons8-menu-bar-50.png" id="menuicon">
+            </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="">Recipes</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                     <li id="closebar"><a href=""> <span>X</span></a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="recipe.html">Recipes</a></li>
+                    <li><a href="blogpost.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     <li><a href="">About Us</a></li>
                 </ul>
             </nav>
@@ -63,7 +67,7 @@
                 <br>
 
                 <h2>Do you cook at home on your days off?</h2>
-                <img src="/Images/blogchef.png">
+                <img src="/Images/blogchef.png" id="blogchefimg">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. 
@@ -230,5 +234,7 @@
             <p>© 2020 Flowbase. Powered by <span style="color: red;">Webflow</span></p>
         </footer>
     </main>
+
+    <script src="index.js"></script>
 </body>
 </html>

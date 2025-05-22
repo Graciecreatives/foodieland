@@ -12,13 +12,17 @@
 <body>
     <main>
         <header>
-            <img src="Foodieland..png" alt="Foodieland's Logo" id="thelogo">
-
+            <img src="Images/Foodieland..png" alt="Foodieland's Logo" id="thelogo">
+             
+            <div class="menu-icon">
+                <img src="Images/icons8-menu-bar-50.png" id="menuicon">
+            </div>
             <nav>
                 <ul>
+                     <li id="closebar"><a href=""> <span>X</span></a></li>
                     <li><a href="">Home</a></li>
                     <li><a href="recipe.html">Recipes</a></li>
-                    <li><a href="bloglist.html">Blog</a></li>
+                    <li><a href="blogpost.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="">About Us</a></li>
                 </ul>
@@ -338,11 +342,11 @@
                     <div class="posttop">
                         <div class="instagramhead">
                             <div class="instagramlogo">
-                                <img src="/Images/Oval.png">
+                                <img src="Images/Oval.png">
                             </div>
 
                             <div class="instagramlogocontent">
-                                <h3>Foodieland <img src="/Images/Official Icon.png"></h3>
+                                <h3>Foodieland <img src="Images/Official Icon.png"></h3>
                                 <p>Tokyo, Japan</p>
                             </div>
                         </div>
@@ -361,13 +365,13 @@
                         <div class="instagramreactions">
 
                             <div class="postreaction">
-                                <img src="/Images/instalike.png"> 
-                                <img src="/Images/Shape.png">   
-                                <img src="/Images/Messanger.png">
+                                <img src="Images/instalike.png"> 
+                                <img src="Images/Shape.png">   
+                                <img src="Images/Messanger.png">
                             </div>
         
-                            <div class="postpagination"> <img src="/Images/Pagination.png"> </div>
-                            <div class="postsave"><img src="/Images/Save.png"></div>
+                            <div class="postpagination"> <img src="Images/Pagination.png"> </div>
+                            <div class="postsave"><img src="Images/Save.png"></div>
                         </div>
                         <p><img src="Images/Oval (2).png">Liked by <b>craig_love and 44,686 </b></p>
                         <p> <b>Foodieland. </b>
@@ -518,18 +522,18 @@
             <div class="groupedrecipes">
                 <div class="thedeliciousrecipe1">
                 <div class="tropicalfruit">
-                    <img src="/Images/like1.png">
+                    <img src="Images/like1.png">
                 </div>
                 <h2>Mixed Tropical Fruit Salad with Superfood Boosts </h2>
                 
                 <div class="timers">
                         <div class="food-time1">
-                            <img src="/Images/Timer.png">
+                            <img src="Images/Timer.png">
                             <p>30 Minutes </p>
                         </div>
 
                         <div class="food-time1">
-                            <img src="/Images/ForkKnife.png">
+                            <img src="Images/ForkKnife.png">
                             <p>Healthy </p>
                         </div>
                 </div>
@@ -538,18 +542,18 @@
 
                 <div class="thedeliciousrecipe1">
                     <div class="wagyubeef">
-                        <img src="/Images/like.png">
+                        <img src="Images/like.png">
                     </div>
                     <h2>Big and Juicy Wagyu Beef Cheeseburger </h2>
                     
                     <div class="timers">
                         <div class="food-time1">
-                            <img src="/Images/Timer.png">
+                            <img src="Images/Timer.png">
                             <p>30 Minutes </p>
                         </div>
     
                         <div class="food-time1">
-                            <img src="/Images/ForkKnife.png">
+                            <img src="Images/ForkKnife.png">
                             <p>Western</p>
                         </div>
                 </div>
@@ -558,18 +562,18 @@
 
                 <div class="thedeliciousrecipe1">
                     <div class="japaneserice">
-                            <img src="/Images/like1.png">
+                            <img src="Images/like1.png">
                     </div>
                     <h2>Healthy Japanese Fried Rice with Asparagus</h2>
                     
                     <div class="timers">
                         <div class="food-time1">
-                            <img src="/Images/Timer.png">
+                            <img src="Images/Timer.png">
                             <p>30 Minutes </p>
                         </div>
     
                         <div class="food-time1">
-                            <img src="/Images/ForkKnife.png">
+                            <img src="Images/ForkKnife.png">
                             <p>Healthy </p>
                         </div>
                 </div>
@@ -578,18 +582,18 @@
 
                 <div class="thedeliciousrecipe1">
                     <div class="cauliflower">
-                        <img src="/Images/like.png">
+                        <img src="Images/like.png">
                     </div>
                     <h2>Cauliflower Walnut Vegetarian Taco Meat</h2>
                     
                     <div class="timers">
                         <div class="food-time1">
-                            <img src="/Images/Timer.png">
+                            <img src="Images/Timer.png">
                             <p>30 Minutes </p>
                         </div>
     
                         <div class="food-time1">
-                            <img src="/Images/ForkKnife.png">
+                            <img src="Images/ForkKnife.png">
                             <p>Eastern</p>
                         </div>
                 </div>
@@ -622,7 +626,7 @@
                 <div class="footernav">
     
                     <nav>
-                        <ul>
+                        <ul id="menulinks">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="recipe.html">Recipes</a></li>
                             <li><a href="blogpost.html">Blog</a></li>
@@ -638,5 +642,7 @@
             <p>© 2020 Flowbase. Powered by <span style="color: red;">Webflow</span></p>
         </footer>
     </main>
+
+    <script src="index.js"></script>
 </body>
 </html>
